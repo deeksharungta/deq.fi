@@ -25,7 +25,7 @@ export default function Hero() {
       </p>
       <Link
         href="#"
-        className={`sm:py-3 py-2 sm:px-10 px-6 text-sm font-bold mt-4 bg-dark-blue rounded-xl ${manrope.className} sm:font-extrabold sm:text-base hover:bg-light-blue`}
+        className={`sm:py-3 py-2 sm:px-10 px-6 text-sm font-bold mt-8 bg-dark-blue rounded-xl ${manrope.className} sm:font-extrabold sm:text-base hover:bg-light-blue`}
       >
         Stake AVAIL
       </Link>
