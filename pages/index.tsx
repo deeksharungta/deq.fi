@@ -12,9 +12,19 @@ export default function Home() {
     <>
       <Head>
         <title>Deq.fi</title>
-        <meta name="description" content="" />
+        <meta name="description" content="Your description here" />
+        <meta property="og:title" content="Deq.fi" />
+        <meta property="og:description" content="Your description here" />
         <meta
-          name="og:image"
+          property="og:image"
+          content="https://res.cloudinary.com/dczghbro7/image/upload/v1721746189/og-image_mzcne9.png"
+        />
+        <meta property="og:url" content="https://your-website-url.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Deq.fi" />
+        <meta name="twitter:description" content="Your description here" />
+        <meta
+          name="twitter:image"
           content="https://res.cloudinary.com/dczghbro7/image/upload/v1721746189/og-image_mzcne9.png"
         />
       </Head>
